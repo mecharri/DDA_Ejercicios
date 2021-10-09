@@ -2,6 +2,9 @@
 //! @file ej_1.v
 //! @author MartinE
 
+// Definiciones
+
+`timescale 1ns/100ps
  
 module top_ej_1(
     output  [5:0]   o_data,
@@ -27,7 +30,7 @@ realimentador
         .o_overflow (w_o_overflow),
         .i_entrada  (w_sumador_realimentador),
         .i_rst_n    (i_rst_n),
-        .clock      (clk)
+        .clk      (clk)
     );
 
 

@@ -2,6 +2,10 @@
 //! @file sumador_selectivo.v
 //! @author MartinE
 
+// Definiciones
+
+`timescale 1ns/100ps
+
 module sumador_selectivo (
     output  [3:0]  o_suma,  //! Salida de la suma
     input   [2:0]  i_data1, //! Entrada 1
