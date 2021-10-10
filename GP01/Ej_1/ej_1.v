@@ -13,7 +13,7 @@ module top_ej_1(
     input   [2:0]   i_data2,
     input           i_rst_n,
     input   [1:0]   i_sel,
-    input           clk
+    input           clock
 );//! Toplevel del Ej1
 
 
@@ -30,7 +30,7 @@ realimentador
         .o_overflow (w_o_overflow),
         .i_entrada  (w_sumador_realimentador),
         .i_rst_n    (i_rst_n),
-        .clk      (clk)
+        .clock        (clock)
     );
 
 

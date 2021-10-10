@@ -14,16 +14,16 @@ reg   [2:0]   i_data1;      //! Dato de entrada 1
 reg   [2:0]   i_data2;      //! Dato de entrada 2
 reg           i_rst_n;      //! Reset asincrónico
 reg   [1:0]   i_sel;        //! Selector
-reg           clk;          //! Clock
+reg           clock;        //! Clock
 
 wire  [3:0]  tb_suma_sumador; //! Punta de prueba para sumador selectivo
 
 //! Leo la salida del módulo sumador selectivo y pongo la punta de prueba al wire que conecta los dos módulos
-assign tb_suma_sumador = tb_ej1.u_top_ej_1.w_sumador_realimentador;
-
+//assign tb_suma_sumador = tb_ej1.u_top_ej_1.w_sumador_realimentador;
+//En el sintetizado lo comento porque no lo encuentra, está bien eso?
 initial begin : estimulos
   //! Inicializo todas las entradas en cero
-  clk       = 1'b0;
+  clock       = 1'b0;
   i_data1   = 3'b000;
   i_data2   = 3'b000;
   i_sel     = 2'b00;
@@ -68,7 +68,7 @@ initial begin : estimulos
 end 
 
 //! Generación del clock
-always #5 clk = (~ clk);  //!Semiperiodo de 5ns => Perido de 10ns => F = 100MHz
+always #5 clock = (~ clock);  //!Semiperiodo de 5ns => Perido de 10ns => F = 100MHz
 
 //! Instancio el toplevel del ejercicio 1
 top_ej_1
@@ -80,7 +80,7 @@ top_ej_1
     .i_data2      (i_data2),
     .i_rst_n      (i_rst_n),
     .i_sel        (i_sel),
-    .clk          (clk)
+    .clock        (clock)
   );
 
 endmodule //tb_ej_1
