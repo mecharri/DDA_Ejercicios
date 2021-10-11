@@ -70,6 +70,15 @@ sumador_selectivo
         .probe_out3_0   (i_rst_n)
     );
 
+
+ILA
+    u_ila
+    (
+        .clk_0      (clock),
+        .probe0_0   (o_data)
+    );
+
+
 //! Asigno las salidas de los modulos a la salida del toplevel
 assign o_data       =   w_o_data;
 assign o_overflow   =   w_o_overflow;
