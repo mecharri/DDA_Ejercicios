@@ -13,3 +13,6 @@ Está pensado como dos bloques que son los marcados en rojo en el PDF
 
 ## GP01- Ejercicio 2
 
+* Esquemático hecho, puse un registro a la salida
+* Escrito el toplevel y descripción
+* Escrito el testbench 
