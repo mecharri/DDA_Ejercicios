@@ -15,4 +15,8 @@ Está pensado como dos bloques que son los marcados en rojo en el PDF
 
 * Esquemático hecho, puse un registro a la salida
 * Escrito el toplevel y descripción
-* Escrito el testbench 
+* Escrito el testbench
+* Simula Behaivioral
+* Sintetiza
+* Creo un archivo de constraints
+* Error de DRC (preguntar)

@@ -23,33 +23,39 @@ initial begin : estimulos
   i_sel     = 2'b00;
   
 //! Empiezo la parte temporal
-    #50     i_dataA =   16'd-15;
-            i_dataB =   16'd-15;
+    #50     i_dataA =   -16'd15;
+            i_dataB =   -16'd15;
             i_sel   =   2'b00;
             //Salida es -15+-15 = -30
-
 //! Cambio el selector
-    #50     i_dataA =   16'd-15;
-            i_dataB =   16'd-15;
-            i_sel   =   2'b01;
+    #50     i_sel   =   2'b01;
             //Salida es -15--15 = 0
-
 //! Cambio el selector
-    #50     i_dataA =   16'd-15;
-            i_dataB =   16'd-15;
-            i_sel   =   2'b10;
-            //Salida es -15 & -15 = -30
-
+    #50     i_sel   =   2'b10;
+            //Salida es -15 & -15 = -15
 //! Cambio el selector
-    #50     i_dataA =   16'd-15;
-            i_dataB =   16'd-15;
-            i_sel   =   2'b11;
-            //Salida es -15 | -15 = -30
+    #50     i_sel   =   2'b11;
+            //Salida es -15 | -15 = -15
 
+//! Empiezo la parte temporal
+    #50     i_dataA =   16'b0101_1111_0000_1010;//24330
+            i_dataB =   16'b0101_1100_1100_0010;//23746
+            i_sel   =   2'b00;
+            //Salida es 1011_1011_1100_1100 = 24330+23746 = 48076 but overflow => -17460
+//! Cambio el selector
+    #50     i_sel   =   2'b01;
+            //Salida es 0000_0010_0011_1000 = 24330 - 23746 = 584
+//! Cambio el selector
+    #50     i_sel   =   2'b10;
+            //Salida es 0101_1100_0000_0010
+//! Cambio el selector
+    #50     i_sel   =   2'b11;
+            //Salida es 0101_1111_1100_1010
 
+    #20     $stop;
 
 end
-//! Generación del clock
+//! Generación del clocks
 always #5 clock = (~ clock);  //!Semiperiodo de 5ns => Perido de 10ns => F = 100MHz
 
 //! Instancio el top del Ej2
