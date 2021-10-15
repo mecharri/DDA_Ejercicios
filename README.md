@@ -20,3 +20,12 @@ Está pensado como dos bloques que son los marcados en rojo en el PDF
 * Sintetiza
 * Creo un archivo de constraints
 * Error de DRC (preguntar)
+
+
+## GP01- Ejercicio 3
+
+* Hecho el esquemático, notas:
+    * En rojo los bus de varios datos
+    * En negro bus de un dato de 32
+    * En verde el clock
+    * En azul el reset
