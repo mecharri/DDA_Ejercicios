@@ -5,7 +5,7 @@
 
 `timescale  1ns/100ps
 
-module tb_ej2();
+module tb_ej4();
 
 localparam  NB_DATA = 8;
 
@@ -14,6 +14,28 @@ reg   [NB_DATA-1 : 0]      i_x;         //! Entrada de datos
 reg                        i_rst_n;     //! Entrada de reset
 reg                        clock;       //! Clock
 
+
+//Wires para cables internos para poder debugear
+
+wire [NB_DATA-1 : 0]       w_ym1;
+wire [NB_DATA-1 : 0]       w_ym2;
+wire [NB_DATA-1 : 0]       w_ym1_s;
+wire [NB_DATA-1 : 0]       w_ym2_s;
+
+wire [NB_DATA-1 : 0]       w_xm1;
+wire [NB_DATA-1 : 0]       w_xm2;
+wire [NB_DATA-1 : 0]       w_xm3;
+wire [NB_DATA-1 : 0]       w_xm4;
+
+
+assign  w_ym1 = tb_ej4.u_top_ej_4.r_ym1;
+assign  w_ym2 = tb_ej4.u_top_ej_4.r_ym2;
+assign  w_ym1_s = tb_ej4.u_top_ej_4.r_ym1 >>> 1;
+assign  w_ym2_s = tb_ej4.u_top_ej_4.r_ym2 >>> 2;
+
+assign  w_xm1 = tb_ej4.u_top_ej_4.r_xm1;
+assign  w_xm2 = tb_ej4.u_top_ej_4.r_xm2;
+assign  w_xm3 = tb_ej4.u_top_ej_4.r_xm3;
 
 initial begin : estimulos
   //! Inicializo todas las entradas en cero
