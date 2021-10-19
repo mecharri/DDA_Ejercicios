@@ -38,6 +38,8 @@ assign  w_xm2 = tb_ej4.u_top_ej_4.r_xm2;
 assign  w_xm3 = tb_ej4.u_top_ej_4.r_xm3;
 
 initial begin : estimulos
+$dumpfile("tb_ej4.vcd");
+$dumpvars(clock,i_x,i_rst_n,o_y,w_ym1,w_ym1_s,w_ym2,w_ym2_s,w_xm1,w_xm2,w_xm3);
   //! Inicializo todas las entradas en cero
   clock     = 1'b0;
   i_x       = 8'b0000_0000;
@@ -107,7 +109,7 @@ initial begin : estimulos
             // y[n]   =   x[n] - x[n-1] + x[n-2] + x[n-3] + 0,5*y[n-1] + 0,25*y[n-2] =  2-1+4+3+0,5*4+0,25*5 = 11,25  (recorta a 11)
 
 
-    #10     $stop;
+    #10     $finish;
 
 end
 //! Generación del clocks
