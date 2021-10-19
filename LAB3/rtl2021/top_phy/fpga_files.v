@@ -6,13 +6,13 @@
 //! - PRBS generator with polyphase filters and block memory for save samples
 //! - PRBS generator generates a bit per 8 clock cycles
 
-`include "/home/apola/projects/ddaUnit3/rtlB/include/artyc_include.v"
+`include "/home/martin/Descargas/DDA/Practicas/DDA_Ejercicios/LAB3/rtl2021/include/artyc_include.v"
 
-`include "/home/apola/projects/ddaUnit3/rtlB/parallel_prbs_gen/prbsx.v"
+`include "/home/martin/Descargas/DDA/Practicas/DDA_Ejercicios/LAB3/rtl2021/parallel_prbs_gen/prbsx.v"
 
-`include "/home/apola/projects/ddaUnit3/rtlB/debug/bram.v"
-`include "/home/apola/projects/ddaUnit3/rtlB/debug/ram_fsm.v"
-`include "/home/apola/projects/ddaUnit3/rtlB/debug/ram_save.v"
+`include "/home/martin/Descargas/DDA/Practicas/DDA_Ejercicios/LAB3/rtl2021/debug/bram.v"
+`include "/home/martin/Descargas/DDA/Practicas/DDA_Ejercicios/LAB3/rtl2021/debug/ram_fsm.v"
+`include "/home/martin/Descargas/DDA/Practicas/DDA_Ejercicios/LAB3/rtl2021/debug/ram_save.v"
 
-`include "/home/apola/projects/ddaUnit3/rtlB/srrc/tx_fcsg.v"
-`include "/home/apola/projects/ddaUnit3/rtlB/srrc/tx_srrc.v"
+`include "/home/martin/Descargas/DDA/Practicas/DDA_Ejercicios/LAB3/rtl2021/srrc/tx_fcsg.v"
+`include "/home/martin/Descargas/DDA/Practicas/DDA_Ejercicios/LAB3/rtl2021/srrc/tx_srrc.v"

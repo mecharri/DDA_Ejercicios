@@ -63,7 +63,7 @@ module tx_srrc
    ///////////////////////////////////////////
    // Filter
    ///////////////////////////////////////////
-   `include "tx_srrc_coef.v"
+   `include "/home/martin/Descargas/DDA/Practicas/DDA_Ejercicios/LAB3/rtl2021/srrc/tx_srrc_coef.v"
 
    //! Coeffs vector to Coeffs Matrix
    generate

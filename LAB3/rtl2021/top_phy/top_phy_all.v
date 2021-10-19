@@ -10,7 +10,7 @@
 //! - **i_enable_srrc** controls the enable (1) of the filters. The value (0) stops the systems without change of the current state of the filters.
 //! - **NOTE** COMMENT PORTS AND UNCOMMENT SIGNALS TO IMPLEMENT IN FPGA
 
-`include "/home/apola/projects/ddaUnit3/rtlB/top_phy/fpga_files.v"
+`include "/home/martin/Descargas/DDA/Practicas/DDA_Ejercicios/LAB3/rtl2021/top_phy/fpga_files.v"
 
 module top_phy_all #(
                      parameter NB_PRBS                 = `NB_PRBS,                  //! NB of PRBS
@@ -33,14 +33,14 @@ module top_phy_all #(
                       ////////////////////////////////////////////////////////////
                       // COMMENT TO IMPLEMENT IN FPGA
                       ////////////////////////////////////////////////////////////
-//                      output [NB_DATA_RAM_LOG*2 - 1 : 0]   o_data_from_ram,
-//                      output reg                           o_full_from_ram,             //! RAM Full signal
-//                      input                                i_prbs_enable,               //! Enable PRBS
-//                      input                                i_enable_srrc,               //! Enable SRRC
-//                      input [NB_ADDR_RAM_LOG    - 1 : 0 ]  i_ram_addr_from_micro,       //! Address for Read Memory
-//                      input                                i_ram_run_from_micro,        //! Enable load Memory
-//                      input                                i_soft_reset,                //! Reset
-//                      input                                i_ram_read_from_counter,     //! RAM Read from counter
+                      output [NB_DATA_RAM_LOG*2 - 1 : 0]   o_data_from_ram,
+                      output reg                           o_full_from_ram,             //! RAM Full signal
+                      input                                i_prbs_enable,               //! Enable PRBS
+                      input                                i_enable_srrc,               //! Enable SRRC
+                      input [NB_ADDR_RAM_LOG    - 1 : 0 ]  i_ram_addr_from_micro,       //! Address for Read Memory
+                      input                                i_ram_run_from_micro,        //! Enable load Memory
+                      input                                i_soft_reset,                //! Reset
+                      input                                i_ram_read_from_counter,     //! RAM Read from counter
                       input                                clock                        //! Clock
                    );
 
@@ -217,30 +217,30 @@ module top_phy_all #(
   // UNCOMMENT TO IMPLEMENT IN FPGA
   ////////////////////////////////////////////////////////////
      //! VIO Instance
-     vio
-       u_vio
-         (
-           .probe_out0_0 (i_soft_reset           ),  //! Reset
-           .probe_out1_0 (i_prbs_enable          ),  //! PRBS Enable
-           .probe_out2_0 (i_enable_srrc          ),  //! SRRC Enable
-           .probe_out3_0 (i_ram_run_from_micro   ),  //! RAM Init
-           .probe_out4_0 (i_ram_addr_from_micro  ),  //! RAM Address to read
-           .probe_out5_0 (i_ram_read_from_counter),  //! RAM read from counter
-           .probe_in0_0  (o_full_from_ram        ),  //! RAM Full
-           .probe_in1_0  (o_data_from_ram        ),  //! RAM Data
-           .clk_0        (clock                  )   //! Clock
-         );
+//     vio
+//       u_vio
+//         (
+//           .probe_out0_0 (i_soft_reset           ),  //! Reset
+//           .probe_out1_0 (i_prbs_enable          ),  //! PRBS Enable
+//           .probe_out2_0 (i_enable_srrc          ),  //! SRRC Enable
+//           .probe_out3_0 (i_ram_run_from_micro   ),  //! RAM Init
+//           .probe_out4_0 (i_ram_addr_from_micro  ),  //! RAM Address to read
+//           .probe_out5_0 (i_ram_read_from_counter),  //! RAM read from counter
+//           .probe_in0_0  (o_full_from_ram        ),  //! RAM Full
+//           .probe_in1_0  (o_data_from_ram        ),  //! RAM Data
+//           .clk_0        (clock                  )   //! Clock
+//         );
 
-     //! ILA Instance
-     ila
-       u_ila
-         (
-           .probe0_0 (data_from_ram_I), //! Data from RAM
-           .probe1_0 (data_from_ram_Q), //! Data from RAM
-           .probe2_0 (ram_address    ), //! RAM Address
-           .probe3_0 (o_full_from_ram), //! RAM Full
-           .clk_0    (clock          )  //! Clock
-         );
+//     //! ILA Instance
+//     ila
+//       u_ila
+//         (
+//           .probe0_0 (data_from_ram_I), //! Data from RAM
+//           .probe1_0 (data_from_ram_Q), //! Data from RAM
+//           .probe2_0 (ram_address    ), //! RAM Address
+//           .probe3_0 (o_full_from_ram), //! RAM Full
+//           .clk_0    (clock          )  //! Clock
+//         );
   ////////////////////////////////////////////////////////////
   
 endmodule // top_phy_all

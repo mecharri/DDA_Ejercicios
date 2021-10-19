@@ -10,7 +10,7 @@
 //! - **i_enable_srrc** controls the enable (1) of the filters. The value (0) stops the systems without change of the current state of the filters.
 //! - **NOTE** COMMENT PORTS AND UNCOMMENT SIGNALS TO IMPLEMENT IN FPGA
 
-`include "/home/apola/projects/ddaUnit3/rtlB/include/artyc_include.v"
+`include "/home/martin/Descargas/DDA/Practicas/DDA_Ejercicios/LAB3/rtl2021/include/artyc_include.v"
 
 module tb_top_phy_all();
 
