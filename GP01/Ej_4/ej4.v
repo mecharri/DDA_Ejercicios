@@ -27,12 +27,12 @@ always  @(posedge clock or negedge i_rst_n )
 begin
 
     if(!i_rst_n) begin
-        r_xm1   <=  0;  //! Pongo todo en cero
-        r_xm2   <=  0;
-        r_xm3   <=  0;
-        r_y     <=  0;
-        r_ym1   <=  0;
-        r_ym2   <=  0;
+        r_xm1   =  0;  //! Pongo todo en cero
+        r_xm2   =  0;
+        r_xm3   =  0;
+        r_y     =  0;
+        r_ym1   =  0;
+        r_ym2   =  0;
     end
     else begin
 
@@ -40,7 +40,7 @@ begin
         r_ym1_shifted = r_ym1 >>> 1;
         r_ym2_shifted = r_ym2 >>> 2;
         //! Hago la cuenta
-        r_y     <=  i_x + r_ym1_shifted + r_ym2_shifted- r_xm1 + r_xm2 + r_xm3 ;
+        r_y     =  i_x + r_ym1_shifted + r_ym2_shifted- r_xm1 + r_xm2 + r_xm3 ;
         //! y   =   x[n] - x[n-1] + x[n-2] + x[n-3] + 0,5*y[n-1] + 0,25*y[n-2]
 
        //! Actualizo el historial de las entradas
