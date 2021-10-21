@@ -34,3 +34,15 @@ Está pensado como dos bloques que son los marcados en rojo en el PDF
 * Arquitectura y esquemático
 * Código verilog
 * Se crea el testbench
+
+## GP01
+### Ejercicio 1
+
+
+### Ejercicio 2
+
+
+### Ejercicio 3
+
+
+### Ejercicio 4
