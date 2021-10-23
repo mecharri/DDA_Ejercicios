@@ -35,9 +35,9 @@ Está pensado como dos bloques que son los marcados en rojo en el PDF
 * Código verilog
 * Se crea el testbench
 
-## GP01
+## GP02
 ### Ejercicio 1
-
+* Diseño de esquemático del multiplicador de punto flotante
 
 ### Ejercicio 2
 
