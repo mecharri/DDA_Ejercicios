@@ -14,7 +14,7 @@
    viewBox="0 0 340.93899 312.22417"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="Esquematico_top_level.svg">
   <defs
      id="defs4" />
@@ -25,17 +25,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="-118.3672"
-     inkscape:cy="54.836996"
+     inkscape:zoom="2.8"
+     inkscape:cx="176.71617"
+     inkscape:cy="196.64165"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     showgrid="true"
+     showgrid="false"
      showguides="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     inkscape:window-x="72"
+     inkscape:window-y="1077"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -55,7 +55,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -66,37 +66,37 @@
      transform="translate(-49.530512,-2.3622047)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="200.00023"
        y="311.63837"
-       id="text4166"
-       sodipodi:linespacing="125%"><tspan
+       id="text4166"><tspan
          sodipodi:role="line"
          id="tspan4168"
          x="200.00023"
-         y="311.63837">flotante_o[0:12]</tspan></text>
+         y="311.63837"
+         style="font-size:12.5px;line-height:1.25">flotante_o[0:12]</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="233.85648"
        y="13.707915"
-       id="text4166-3"
-       sodipodi:linespacing="125%"><tspan
+       id="text4166-3"><tspan
          sodipodi:role="line"
          id="tspan4168-7"
          x="233.85648"
-         y="13.707915">flotante_2[0:12]</tspan></text>
+         y="13.707915"
+         style="font-size:12.5px;line-height:1.25">flotante_2[0:12]</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="65.846825"
        y="12.011937"
-       id="text4166-0"
-       sodipodi:linespacing="125%"><tspan
+       id="text4166-0"><tspan
          sodipodi:role="line"
          id="tspan4168-5"
          x="65.846825"
-         y="12.011937">flotante_1[0:12]</tspan></text>
+         y="12.011937"
+         style="font-size:12.5px;line-height:1.25">flotante_1[0:12]</tspan></text>
     <g
        id="g4392"
        transform="translate(24.285714,13.571429)">
@@ -127,40 +127,37 @@
         </g>
       </g>
       <text
-         transform="matrix(0,1,-1,0,0,0)"
-         sodipodi:linespacing="125%"
+         transform="rotate(90)"
          id="text4166-0-3"
          y="-40.395123"
          x="53.746986"
-         style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-size:7.5px"
+           style="font-size:7.5px;line-height:1.25"
            y="-40.395123"
            x="53.746986"
            id="tspan4168-5-4"
            sodipodi:role="line">flotante_1[0]</tspan></text>
       <text
-         transform="matrix(0,1,-1,0,0,0)"
-         sodipodi:linespacing="125%"
+         transform="rotate(90)"
          id="text4166-3-1"
          y="-60.90147"
          x="53.396774"
-         style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-size:7.5px"
+           style="font-size:7.5px;line-height:1.25"
            id="tspan4242"
            y="-60.90147"
            x="53.396774"
            sodipodi:role="line">flotante_2[0]</tspan></text>
       <text
-         transform="matrix(0,1,-1,0,0,0)"
-         sodipodi:linespacing="125%"
+         transform="rotate(90)"
          id="text4166-4"
          y="-65.907791"
          x="160.16336"
-         style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-size:7.5px"
+           style="font-size:7.5px;line-height:1.25"
            y="-65.907791"
            x="160.16336"
            id="tspan4168-4"
@@ -170,27 +167,25 @@
        id="g4475"
        transform="translate(-10.714286,35)">
       <text
-         transform="matrix(0,-1,1,0,0,0)"
-         sodipodi:linespacing="125%"
+         transform="rotate(-90)"
          id="text4166-0-3-4"
          y="178.70535"
          x="-88.00634"
-         style="font-style:normal;font-weight:normal;font-size:12.00601578px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-size:7.20360947px"
+           style="font-size:7.20360947px;line-height:1.25"
            y="178.70535"
            x="-88.00634"
            id="tspan4168-5-4-8"
            sodipodi:role="line">flotante_1[5:12]</tspan></text>
       <text
-         transform="matrix(0,-1,1,0,0,0)"
-         sodipodi:linespacing="125%"
+         transform="rotate(-90)"
          id="text4166-3-1-0"
          y="228.16895"
          x="-88.64019"
-         style="font-style:normal;font-weight:normal;font-size:12.00601578px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-size:7.20360947px"
+           style="font-size:7.20360947px;line-height:1.25"
            id="tspan4242-1"
            y="228.16895"
            x="-88.64019"
@@ -207,26 +202,24 @@
            y="92.362206" />
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            x="162.94762"
            y="125.28955"
-           id="text4166-4-8"
-           sodipodi:linespacing="125%"><tspan
+           id="text4166-4-8"><tspan
              sodipodi:role="line"
              id="tspan4168-4-6"
              x="162.94762"
              y="125.28955"
-             style="font-size:7.5px">Multiplicador de mantiza</tspan></text>
+             style="font-size:7.5px;line-height:1.25">Multiplicador de mantiza</tspan></text>
       </g>
       <text
-         transform="matrix(0,-1,1,0,0,0)"
-         sodipodi:linespacing="125%"
+         transform="rotate(-90)"
          id="text4166-4-8-6"
          y="200.52251"
          x="-216.66278"
-         style="font-style:normal;font-weight:normal;font-size:12.00601578px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-size:7.20360947px"
+           style="font-size:7.20360947px;line-height:1.25"
            y="200.52251"
            x="-216.66278"
            id="tspan4168-4-6-4"
@@ -264,13 +257,12 @@
              id="rect4290-4"
              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.93897641;stroke-miterlimit:4;stroke-dasharray:none" />
           <text
-             sodipodi:linespacing="125%"
              id="text4166-4-8-65"
              y="125.28955"
              x="162.94762"
-             style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              xml:space="preserve"><tspan
-               style="font-size:7.5px"
+               style="font-size:7.5px;line-height:1.25"
                y="125.28955"
                x="162.94762"
                id="tspan4168-4-6-0"
@@ -278,40 +270,37 @@
         </g>
       </g>
       <text
-         transform="matrix(0,-1,1,0,0,0)"
-         sodipodi:linespacing="125%"
+         transform="rotate(-90)"
          id="text4166-0-3-4-4"
          y="330.87531"
          x="-88.102402"
-         style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-size:7.5px"
+           style="font-size:7.5px;line-height:1.25"
            y="330.87531"
            x="-88.102402"
            id="tspan4168-5-4-8-9"
            sodipodi:role="line">flotante_1[1:4]</tspan></text>
       <text
-         transform="matrix(0,-1,1,0,0,0)"
-         sodipodi:linespacing="125%"
+         transform="rotate(-90)"
          id="text4166-3-1-0-9"
          y="383.90958"
          x="-87.75219"
-         style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-size:7.5px"
+           style="font-size:7.5px;line-height:1.25"
            id="tspan4242-1-7"
            y="383.90958"
            x="-87.75219"
            sodipodi:role="line">flotante_2[1:4]</tspan></text>
       <text
-         transform="matrix(0,-1,1,0,0,0)"
-         sodipodi:linespacing="125%"
+         transform="rotate(-90)"
          id="text4166-4-8-6-0"
          y="356.38837"
          x="-217.75928"
-         style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-size:7.5px"
+           style="font-size:7.5px;line-height:1.25"
            y="356.38837"
            x="-217.75928"
            id="tspan4168-4-6-4-0"
@@ -433,38 +422,38 @@
        id="path4538"
        inkscape:connector-curvature="0" />
     <text
-       sodipodi:linespacing="125%"
        id="text4540"
        y="311.63837"
        x="200.00023"
-       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          y="311.63837"
          x="200.00023"
          id="tspan4542"
-         sodipodi:role="line">flotante_o[0:12]</tspan></text>
+         sodipodi:role="line"
+         style="font-size:12.5px;line-height:1.25">flotante_o[0:12]</tspan></text>
     <text
-       sodipodi:linespacing="125%"
        id="text4544"
        y="13.707915"
        x="233.85648"
-       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          y="13.707915"
          x="233.85648"
          id="tspan4546"
-         sodipodi:role="line">flotante_2[0:12]</tspan></text>
+         sodipodi:role="line"
+         style="font-size:12.5px;line-height:1.25">flotante_2[0:12]</tspan></text>
     <text
-       sodipodi:linespacing="125%"
        id="text4548"
        y="12.011937"
        x="65.846825"
-       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          y="12.011937"
          x="65.846825"
          id="tspan4550"
-         sodipodi:role="line">flotante_1[0:12]</tspan></text>
+         sodipodi:role="line"
+         style="font-size:12.5px;line-height:1.25">flotante_1[0:12]</tspan></text>
     <g
        transform="translate(24.285714,13.571429)"
        id="g4552">
@@ -496,73 +485,68 @@
       </g>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="53.746986"
          y="-40.395123"
          id="text4566"
-         sodipodi:linespacing="125%"
-         transform="matrix(0,1,-1,0,0,0)"><tspan
+         transform="rotate(90)"><tspan
            sodipodi:role="line"
            id="tspan4568"
            x="53.746986"
            y="-40.395123"
-           style="font-size:7.5px">flotante_1[0]</tspan></text>
+           style="font-size:7.5px;line-height:1.25">flotante_1[0]</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="53.396774"
          y="-60.90147"
          id="text4570"
-         sodipodi:linespacing="125%"
-         transform="matrix(0,1,-1,0,0,0)"><tspan
+         transform="rotate(90)"><tspan
            sodipodi:role="line"
            x="53.396774"
            y="-60.90147"
            id="tspan4572"
-           style="font-size:7.5px">flotante_2[0]</tspan></text>
+           style="font-size:7.5px;line-height:1.25">flotante_2[0]</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="160.16336"
          y="-65.907791"
          id="text4574"
-         sodipodi:linespacing="125%"
-         transform="matrix(0,1,-1,0,0,0)"><tspan
+         transform="rotate(90)"><tspan
            sodipodi:role="line"
            id="tspan4576"
            x="160.16336"
            y="-65.907791"
-           style="font-size:7.5px">flotante_o[0]</tspan></text>
+           style="font-size:7.5px;line-height:1.25">flotante_o[0]</tspan></text>
     </g>
     <g
        transform="translate(-10.714286,35)"
        id="g4578">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:12.00601578px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="-88.00634"
          y="178.70535"
          id="text4580"
-         sodipodi:linespacing="125%"
-         transform="matrix(0,-1,1,0,0,0)"><tspan
+         transform="rotate(-90)"><tspan
            sodipodi:role="line"
            id="tspan4582"
            x="-88.00634"
            y="178.70535"
-           style="font-size:7.20360947px">flotante_1[5:12]</tspan></text>
+           style="font-size:7.20360947px;line-height:1.25">flotante_1[5:12]</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:12.00601578px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="-88.64019"
          y="228.16895"
          id="text4584"
-         sodipodi:linespacing="125%"
-         transform="matrix(0,-1,1,0,0,0)"><tspan
+         transform="rotate(-90)"><tspan
            sodipodi:role="line"
            x="-88.64019"
            y="228.16895"
            id="tspan4586"
-           style="font-size:7.20360947px">flotante_2[5:12]</tspan></text>
+           style="font-size:7.20360947px;line-height:1.25">flotante_2[5:12]</tspan></text>
       <g
          id="g4588"
          transform="matrix(0.9604812,0,0,0.9604812,8.200152,4.9232464)">
@@ -574,13 +558,12 @@
            id="rect4590"
            style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.93897641;stroke-miterlimit:4;stroke-dasharray:none" />
         <text
-           sodipodi:linespacing="125%"
            id="text4592"
            y="125.28955"
            x="162.94762"
-           style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"><tspan
-             style="font-size:7.5px"
+             style="font-size:7.5px;line-height:1.25"
              y="125.28955"
              x="162.94762"
              id="tspan4594"
@@ -588,17 +571,16 @@
       </g>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:12.00601578px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="-216.66278"
          y="200.52251"
          id="text4596"
-         sodipodi:linespacing="125%"
-         transform="matrix(0,-1,1,0,0,0)"><tspan
+         transform="rotate(-90)"><tspan
            sodipodi:role="line"
            id="tspan4598"
            x="-216.66278"
            y="200.52251"
-           style="font-size:7.20360947px">flotante_o[5:12]</tspan></text>
+           style="font-size:7.20360947px;line-height:1.25">flotante_o[5:12]</tspan></text>
       <path
          style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.96048117px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="m 181.08676,93.635409 0,-66.273204"
@@ -633,57 +615,41 @@
              y="93.877434" />
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              x="162.94762"
              y="125.28955"
-             id="text4614"
-             sodipodi:linespacing="125%"><tspan
+             id="text4614"><tspan
                sodipodi:role="line"
                id="tspan4616"
                x="162.94762"
                y="125.28955"
-               style="font-size:7.5px">Sumador de exponente</tspan></text>
+               style="font-size:7.5px;line-height:1.25">Sumador de exponente</tspan></text>
         </g>
       </g>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="-88.102402"
-         y="330.87531"
-         id="text4618"
-         sodipodi:linespacing="125%"
-         transform="matrix(0,-1,1,0,0,0)"><tspan
-           sodipodi:role="line"
-           id="tspan4620"
-           x="-88.102402"
-           y="330.87531"
-           style="font-size:7.5px">flotante_1[1:4]</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="-87.75219"
          y="383.90958"
          id="text4622"
-         sodipodi:linespacing="125%"
-         transform="matrix(0,-1,1,0,0,0)"><tspan
+         transform="rotate(-90)"><tspan
            sodipodi:role="line"
            x="-87.75219"
            y="383.90958"
            id="tspan4624"
-           style="font-size:7.5px">flotante_2[1:4]</tspan></text>
+           style="font-size:7.5px;line-height:1.25">flotante_2[1:4]</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="-217.75928"
          y="356.38837"
          id="text4626"
-         sodipodi:linespacing="125%"
-         transform="matrix(0,-1,1,0,0,0)"><tspan
+         transform="rotate(-90)"><tspan
            sodipodi:role="line"
            id="tspan4628"
            x="-217.75928"
            y="356.38837"
-           style="font-size:7.5px">flotante_o[1:4]</tspan></text>
+           style="font-size:7.5px;line-height:1.25">flotante_o[1:4]</tspan></text>
       <path
          style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="m 335.81603,93.217513 0,-68.999995"

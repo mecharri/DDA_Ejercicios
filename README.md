@@ -38,6 +38,8 @@ Está pensado como dos bloques que son los marcados en rojo en el PDF
 ## GP02
 ### Ejercicio 1
 * Diseño de esquemático del multiplicador de punto flotante
+* Implentación del esquemático en Verilog
+* 
 
 ### Ejercicio 2
 
