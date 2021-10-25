@@ -39,6 +39,7 @@ Está pensado como dos bloques que son los marcados en rojo en el PDF
 ### Ejercicio 1
 * Diseño de esquemático del multiplicador de punto flotante
 * Implentación del esquemático en Verilog
+* Creo una hoja de cálculos que calcula el valor decimal del flotante de 13 bits
 * 
 
 ### Ejercicio 2
