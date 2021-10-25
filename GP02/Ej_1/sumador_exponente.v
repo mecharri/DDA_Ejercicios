@@ -14,8 +14,8 @@ reg     [4:0]  r_primer_suma;
 reg     [4:0]  r_o_exponente;
 
 always @(*) begin
-    r_primer_suma = {1b0, i_exponente_1} + {1b0, i_exponente_2};
-    r_o_exponente = r_o_exponente - 5d7;
+    r_primer_suma = {1'b0, i_exponente_1} + {1'b0, i_exponente_2};
+    r_o_exponente = r_o_exponente - 5'd7;
 end
 
 assign  o_exponente = r_o_exponente[3:0];
