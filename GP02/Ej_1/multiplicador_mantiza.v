@@ -15,11 +15,11 @@ reg [8:0]   salida_multiplicador;
 reg [7:0]   r_o_mantiza;
 
 always @(*) begin
-    multiplicacion = {8b0000_0000,i_mantiza_1}*{8b0000_0000,i_mantiza_2};
-    salida_multiplicador = {1b0, multiplicacion[15:9]} + i_mantiza_1 + i_mantiza_2;
+    multiplicacion = {8'b0000_0000,i_mantiza_1}*{8'b0000_0000,i_mantiza_2};
+    salida_multiplicador = {1'b0, multiplicacion[15:9]} + i_mantiza_1 + i_mantiza_2;
     case (salida_multiplicador[8])
-        1b0: r_o_mantiza = salida_multiplicador[7:0];
-        1b1: r_o_mantiza = {1b0, salida_multiplicador[7:1]};
+        1'b0: r_o_mantiza = salida_multiplicador[7:0];
+        1'b1: r_o_mantiza = {1'b0, salida_multiplicador[7:1]};
     endcase
 end
 

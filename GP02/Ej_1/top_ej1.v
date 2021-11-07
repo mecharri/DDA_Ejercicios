@@ -49,7 +49,7 @@ multiplicador_mantiza
 
 
 //! Asigno las salidas de los modulos a la salida del toplevel
-assign  o_flotante = {w_signo_salida , w_exponente_salida , w_mantiza_salida};
+assign  o_mutiplicado = {w_signo_salida , w_exponente_salida , w_mantiza_salida};
 
 
 endmodule
