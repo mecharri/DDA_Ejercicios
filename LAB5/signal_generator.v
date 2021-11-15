@@ -9,7 +9,7 @@ module signal_generator(
    parameter NB_SEL     = 2;
 
    parameter NB_COUNT   = 10;
-   parameter MEM_INIT_FILE = "/home/apola/projects/ddaunit5/unit05p_firv2/mem.hex";
+   parameter MEM_INIT_FILE = "/home/martin/Descargas/DDA/Practicas/DDA_Ejercicios/LAB5/mem.hex";
 
    // Ports
    output [NB_DATA - 1 : 0] o_signal;
