@@ -31,22 +31,26 @@ initial begin : estimulos
     #50     i_flotante_1 = 13'b1_0101_11000110;  //-0,443359375
             i_flotante_2 = 13'b0_1100_00011101;  //35,625;
             //o_flotante = Float1 * Float2 = -0,443359375 * 35,625 = -15,79468
-            //Dio 1101011101110 que es -15,4375
+            //Dio           1_1010_11101110 que es -15,4375
+            //Tiene que dar 1_1010_11111001 que es -15,78125 => Hay un problema en la mantiza
 
     #50     i_flotante_1 =  13'b0_0011_11001101;//0,112542828
             i_flotante_2 =  13'b1_1011_00101011;//-18,6875
             //o_flotante = Float3 * Float4 = 0,112542828 * -18,6875 = -2,103144
-            //Dio 1100000000100 que es -2,03125
+            //Dio           1_1000_00000100 que es -2,03125
+            //Tiene que dar 1_1000_00001101 que es -2,1055625
 
     #50     i_flotante_1 =  13'b0_1100_00011101;//35,625
             i_flotante_2 =  13'b0_0011_11001101;//0,112542828
             //o_flotante = Float2 * Float3 = 36.625 * 0,112542828 = 4,121881
-            ///Dio 0100011110101 que es 3,9140625
+            //Dio           0_1000_11110101 que es 3,9140625
+            //Tiene que dar 0_1000_00000000
 
     #50     i_flotante_1 =  13'b1_0101_11000110;//-0,443359375
             i_flotante_2 =  13'b1_1011_00101011;//-18,6875
             //o_flotante = Float1 * Float4 = -0,443359375 * -18,6875 = 8,285278
-            //Dio 0101000000000 que es 8
+            //Dio           0_1010_00000000 que es 8
+            //Tiene que dar 0_1010_00001001 que es 8,28125
                 
     //! Acá quiero probar que es conmutativa, copio los test de arriba y cambio la entrada 1 por la 2
 
