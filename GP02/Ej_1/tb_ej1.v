@@ -36,18 +36,18 @@ initial begin : estimulos
     #50     i_flotante_1 =  13'b0_0011_11001101;//0,112542828
             i_flotante_2 =  13'b1_1011_00101011;//-18,6875
             //o_flotante = Float3 * Float4 = 0,112542828 * -18,6875 = -2,103144
-            //Dio 1011100000100 que es -1,015625
+            //Dio 1100000000100 que es -2,03125
 
     #50     i_flotante_1 =  13'b0_1100_00011101;//35,625
             i_flotante_2 =  13'b0_0011_11001101;//0,112542828
             //o_flotante = Float2 * Float3 = 36.625 * 0,112542828 = 4,121881
-            //Dio 0100011110101 que es 3,91406
+            ///Dio 0100011110101 que es 3,9140625
 
     #50     i_flotante_1 =  13'b1_0101_11000110;//-0,443359375
             i_flotante_2 =  13'b1_1011_00101011;//-18,6875
             //o_flotante = Float1 * Float4 = -0,443359375 * -18,6875 = 8,285278
-            //Dio 0100100000000 que es 4
-
+            //Dio 0101000000000 que es 8
+                
     //! Acá quiero probar que es conmutativa, copio los test de arriba y cambio la entrada 1 por la 2
 
     #10     $finish;

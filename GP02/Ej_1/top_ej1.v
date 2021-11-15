@@ -19,7 +19,7 @@ module top_ej1(
 wire            w_signo_salida;        //! Wire del de salida
 wire    [3:0]   w_exponente_salida;    //! Wire del de salida
 wire    [7:0]   w_mantiza_salida;      //! Wire del de salida
-
+wire            w_carry_exponente;     //! Wire que conecta el aviso de que hubo corrimiento del exponente del multiplicador de mantiza con el sumador de exponentes
 //! Instancio un bloque de cálculo del signo
 signo 
     u_signo
@@ -33,18 +33,20 @@ signo
 sumador_exponente
     u_sumador_exponente
     (
-        .o_exponente    (w_exponente_salida),
-        .i_exponente_1  (i_flotante_1[11:8]),
-        .i_exponente_2  (i_flotante_2[11:8])
+        .o_exponente        (w_exponente_salida),
+        .i_exponente_1      (i_flotante_1[11:8]),
+        .i_exponente_2      (i_flotante_2[11:8]),
+        .i_carry_exponente  (w_carry_exponente)
 );
 
 //! Instancio un bloque de multiplicación de mantiza
 multiplicador_mantiza
     u_multiplicador_mantiza
     (
-        .o_mantiza      (w_mantiza_salida),
-        .i_mantiza_1    (i_flotante_1[7:0]),
-        .i_mantiza_2    (i_flotante_2[7:0])
+        .o_mantiza          (w_mantiza_salida),
+        .o_aviso_exponente  (w_carry_exponente),
+        .i_mantiza_1        (i_flotante_1[7:0]),
+        .i_mantiza_2        (i_flotante_2[7:0])
     );
 
 
