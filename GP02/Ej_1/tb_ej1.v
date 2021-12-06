@@ -12,9 +12,13 @@ reg   [12 : 0]      i_flotante_1;       //! Flotante de entrada 1
 reg   [12 : 0]      i_flotante_2;       //! Flotante de entrada 2
 reg                 clock;           
 
-wire  [12 : 0]      w_coneccion_salida_mutiplicado ; //! 
 
 //Wires para cables internos para poder debugear
+wire [15:0]       w_tb_multiplicacion;
+wire [15:0]       w_tb_salida_multiplicador;
+//! Leo la salida del módulo sumador selectivo y pongo la punta de prueba al wire que conecta los dos módulos
+assign w_tb_multiplicacion = tb_ej1.u_top_ej1.u_multiplicador_mantiza.multiplicacion;
+assign w_tb_salida_multiplicador = tb_ej1.u_top_ej1.u_multiplicador_mantiza.salida_multiplicador;
 
 initial begin : estimulos
   clock = 0;
@@ -70,6 +74,5 @@ top_ej1
         .i_flotante_2   (i_flotante_2)
     );//! Toplevel del Ej1
 
-    //assign o_flotante = w_coneccion_salida_mutiplicado;
 
 endmodule
