@@ -18,7 +18,7 @@ reg         r_o_aviso_exponente;
 
 always @(*) begin
     multiplicacion = i_mantiza_1*i_mantiza_2;
-    salida_multiplicador = {1'b0, multiplicacion[15:9]} + i_mantiza_1 + i_mantiza_2;
+    salida_multiplicador = {1'b0, multiplicacion[14:8]} + i_mantiza_1 + i_mantiza_2;
     r_o_aviso_exponente = salida_multiplicador[8];
     case (salida_multiplicador[8])
         1'b0: r_o_mantiza = salida_multiplicador[7:0];
